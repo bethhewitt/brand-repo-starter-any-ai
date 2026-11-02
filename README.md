@@ -62,6 +62,10 @@ Under each piece, your AI lists anything it had to invent or assume. Check that 
 
 Keep your copy **private**. Once it's set up, it holds your brand material.
 
+## Share it with your team
+
+Put the finished folder on GitHub so your whole team works from the same brand files, and a fix one person makes reaches everyone. Teammates can even use different AI tools. [SHARING.md](SHARING.md) walks you through it step by step with GitHub Desktop, no coding needed.
+
 ## If something goes wrong
 
 | Problem | Fix |

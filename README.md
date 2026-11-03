@@ -99,3 +99,7 @@ ChatGPT, Gemini and other browser chat tools can't open a folder, but you can st
 | `work/` | Drafts in progress |
 | `outputs/` | Approved, finished pieces, which your AI also uses as examples |
 | `setup/` | The setup and check instructions |
+
+## Credits
+
+The grilling instructions are adapted from Matt Pocock's [grill-me skill](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me), used under the MIT License. His licence is in `setup/grilling-LICENSE`.

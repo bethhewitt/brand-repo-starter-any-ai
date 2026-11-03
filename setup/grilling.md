@@ -22,3 +22,5 @@ Each answer reshapes the tree: settled decisions push the frontier outward and u
 Finding _facts_ is your job, never the user's. When a frontier question needs a fact you can find yourself, such as something in this folder's files, look it up instead of asking. The _decisions_ are the user's: put each to them and wait.
 
 The session is done when the frontier is empty: every branch of the design tree visited, nothing left silently assumed. Before acting on it, summarise every decision reached and confirm with the user that you have a shared understanding.
+
+Adapted from Matt Pocock's [grill-me skill](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me), used under the MIT License (see `setup/grilling-LICENSE`).

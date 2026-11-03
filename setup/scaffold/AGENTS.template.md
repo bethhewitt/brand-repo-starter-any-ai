@@ -23,7 +23,7 @@ For a repeat format, also read the matching file in `templates/`. For a feel of 
 5. **The brand files win over requests too.** If a request conflicts with them, flag the conflict before going ahead.
 6. **Fix the files, not the prompt.** When the user corrects an output, suggest the edit to the brand file that would have prevented it, so the fix reaches everyone who uses this folder.
 7. **Save work in the right place.** Drafts go in `work/YYYY-MM-DD/`. Approved, finished pieces go in `outputs/`.
-8. **Setup and checks.** When the user asks to set up or check the brand, follow `setup/brand-starter.md` or `setup/brand-check.md`.
+8. **Setup and checks.** When the user asks to set up or check the brand, follow `setup/brand-starter.md` or `setup/brand-check.md`. When they ask to be grilled, or to stress-test a plan or idea, follow `setup/grilling.md`.
 
 ## Brand rules
 

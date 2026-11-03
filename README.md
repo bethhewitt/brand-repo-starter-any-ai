@@ -60,6 +60,8 @@ Most tools read `AGENTS.md`, and with it your brand files, at the start of every
 
 Under each piece, your AI lists anything it had to invent or assume. Check that list before anything goes out. When you correct something, it suggests a change to your brand files so the same mistake doesn't happen again. After changing the brand files, type: *Read setup/brand-check.md and follow it.*
 
+To stress-test a plan or idea before you start on it, type: *Read setup/grilling.md and follow it.* Your AI asks one question at a time, with numbered suggestions, until every decision is settled.
+
 Keep your copy **private**. Once it's set up, it holds your brand material.
 
 ## Share it with your team

@@ -77,6 +77,8 @@ Put the finished folder on GitHub so your whole team works from the same brand f
 | It doesn't mention your files | Check they're inside the `sources` folder in your brand folder, then tell it they're there. |
 | Setup stopped halfway | Open the same folder and type the step 1 message again. It carries on where it left off. |
 | It ignores your brand in new sessions | Start with *Read AGENTS.md first*, or ask it to set up its own rules file for your tool. |
+| It can't read your competitors' websites | Your tool may not browse the web, or a site may block it. Copy the text from each competitor's homepage and paste it into the chat. |
+| You set up your brand with an older version | Copy in the new `setup` folder from the latest download, then type the step 1 message. It asks only what's needed for the new brand files, and keeps your brand rules. |
 
 ## Chat-only tools
 

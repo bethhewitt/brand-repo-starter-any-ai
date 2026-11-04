@@ -58,7 +58,11 @@ Always ask these as well, because only a person can answer them:
 
 ## 3. Build the repo
 
-Copy everything in `setup/scaffold/` into the root of this folder, keeping the folder structure, except `AGENTS.template.md`: save that as `AGENTS.md`, replacing the one already there. Don't overwrite `sources/`, or any brand file that's already filled in. Then fill in the brand files:
+Copy everything in `setup/scaffold/` into the root of this folder, keeping the folder structure, except `AGENTS.template.md`: save that as `AGENTS.md`, replacing the one already there. Don't overwrite `sources/`, or any brand file that's already filled in.
+
+If `AGENTS.md` already has the brand's name at the top (not "Brand repo (not set up yet)"), this is an update to an older setup: don't replace it, because its brand rules would be lost. Instead, compare it with `AGENTS.template.md` and add only what it's missing: any file in the "Brand files" list, and any rule under "Rules for every task" (renumbering the list). Keep its "Brand rules" section exactly as it is.
+
+Then fill in the brand files:
 
 - Fill in every file in `knowledge/` (`about.md`, `mission.md`, `competitors.md`, `audience.md`, `messaging.md`, `voice.md`) and `brand/identity.md`, keeping the headings. Remove the "Not filled in yet" line from each.
 - Only write what the material or the interview supports. Note where each fact came from, e.g. `(from: brand-guidelines.pdf)` or `(from: interview)`.

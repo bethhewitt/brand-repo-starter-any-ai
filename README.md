@@ -4,7 +4,7 @@ Build a folder that teaches your AI your brand once, so every prompt after that 
 
 This version works with any AI tool that can read and write files in a folder on your computer. **Using Claude?** The Claude version is simpler, with one-word commands: [Brand repo starter for Claude](https://github.com/bethhewitt/brand-repo-starter).
 
-No coding needed. Set aside about 30 minutes. You can stop partway and carry on later.
+No coding needed. Set aside about 45 minutes. You can stop partway and carry on later.
 
 ## Before you start
 
@@ -36,11 +36,11 @@ You need:
 ## Set up your brand
 
 1. **Start the setup.** Type: *Read setup/brand-starter.md and follow it.*
-    - *You should see:* a short message about what's going to happen, then a request for your brand name, your website and any material you have.
-2. **Add your material.** Your AI makes a `sources` folder inside your brand folder. Drop your files in there, then tell it you're done, with your brand name and website in the same message.
-    - *You should see:* a short summary of what it found and what looks thin.
-3. **Answer the questions.** It asks one question at a time, with numbered suggestions. Reply with a number or in your own words. Expect 10 to 20 questions.
-    - When it asks to create files or read your website, allow it. It only works inside your brand folder.
+    - *You should see:* a short message about what's going to happen, then a request for your brand name, your website, your main competitors and any material you have.
+2. **Add your material.** Your AI makes a `sources` folder inside your brand folder. Drop your files in there, then tell it you're done, with your brand name, website and competitors in the same message.
+    - *You should see:* a short summary of what it found and what looks thin. If your tool can browse the web, it also looks at your competitors' websites and recent changes in your market. If it can't, it asks you to paste in the text of each competitor's homepage.
+3. **Answer the questions.** It asks one question at a time, with numbered suggestions. Reply with a number or in your own words. For your mission, vision, positioning and tagline, it drafts a few options for you to choose between. Expect 15 to 25 questions.
+    - When it asks to create files or read your website or your competitors' websites, allow it. It only works inside your brand folder.
     - To stop, just close the session. Later, open the folder again and type the step 1 message: it carries on where you left off.
 4. **Let it build your brand files.** After the last question, it writes your brand files and tells you which gaps are left.
     - *You should see:* new `knowledge`, `brand`, `templates`, `work` and `outputs` folders, and a new `AGENTS.md` with your brand's name at the top. Anything it couldn't confirm is marked `[gap: …]` instead of guessed.
@@ -93,7 +93,7 @@ ChatGPT, Gemini and other browser chat tools can't open a folder, but you can st
 |---|---|
 | `AGENTS.md` | The rules your AI reads at the start of every session |
 | `sources/` | Your raw material and interview answers. Used for setup only, never copied into new content |
-| `knowledge/` | Who you are, who you're for, how you sound, what you say |
+| `knowledge/` | Who you are, why you exist, who you compete with, who you're for (with personas), what you say and how you sound |
 | `brand/` | Colours, fonts, logos |
 | `templates/` | Formats you repeat (a weekly post, a monthly email) |
 | `work/` | Drafts in progress. Kept on your computer only, never shared on GitHub |

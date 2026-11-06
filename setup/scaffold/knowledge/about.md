@@ -4,14 +4,12 @@ _Not filled in yet. Ask your AI to set up your brand by following `setup/brand-s
 
 ## What the brand is
 
-## What it offers
+What it is and does, in two or three plain sentences. What it sells goes in `offering.md`.
 
 ## Where it came from
 
+The origin story: who started it, when, and why.
+
 ## Practical details
 
-Opening hours, locations, prices, how to buy or book. Anything content often mentions that the AI would otherwise guess.
-
-## Proof
-
-Real facts the AI can use: numbers, awards, customers, results. Each one with where it came from. Nothing in this section is ever estimated.
+Opening hours, locations, contact details, how to buy or book. Anything content often mentions that the AI would otherwise guess. Prices go in `offering.md`.

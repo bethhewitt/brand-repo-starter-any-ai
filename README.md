@@ -21,7 +21,7 @@ You need:
   | Claude Code | The Code tab in the Claude desktop app |
 
   Check that your plan includes it. Chat-only tools such as ChatGPT or Gemini in a browser can't work with folders: see [Chat-only tools](#chat-only-tools).
-- **Your brand material, if you have it:** brand guidelines, 3 to 5 of your best past posts or emails, decks and logo files. Save Word files, Google Docs and slides as PDF first. If you have very little, that's fine: your AI will ask more questions instead.
+- **Your brand material, if you have it:** brand guidelines, 3 to 5 of your best past posts or emails, decks, logo files, price lists or service sheets, and any testimonials or reviews you can use. Save Word files, Google Docs and slides as PDF first. If you have very little, that's fine: your AI will ask more questions instead.
 
 ## Install
 
@@ -39,7 +39,7 @@ You need:
     - *You should see:* a short message about what's going to happen, then a request for your brand name, your website, your main competitors and any material you have.
 2. **Add your material.** Your AI makes a `sources` folder inside your brand folder. Drop your files in there, then tell it you're done, with your brand name, website and competitors in the same message.
     - *You should see:* a short summary of what it found and what looks thin. If your tool can browse the web, it also looks at your competitors' websites and recent changes in your market. If it can't, it asks you to paste in the text of each competitor's homepage.
-3. **Answer the questions.** It asks one question at a time, with numbered suggestions. Reply with a number or in your own words. For your mission, vision, positioning and tagline, it drafts a few options for you to choose between. Expect 15 to 25 questions.
+3. **Answer the questions.** It asks one question at a time, with numbered suggestions. Reply with a number or in your own words. For your mission, vision, positioning and tagline, it drafts a few options for you to choose between. Expect 20 to 30 questions.
     - When it asks to create files or read your website or your competitors' websites, allow it. It only works inside your brand folder.
     - To stop, just close the session. Later, open the folder again and type the step 1 message: it carries on where you left off.
 4. **Let it build your brand files.** After the last question, it writes your brand files and tells you which gaps are left.
@@ -78,7 +78,7 @@ Put the finished folder on GitHub so your whole team works from the same brand f
 | Setup stopped halfway | Open the same folder and type the step 1 message again. It carries on where it left off. |
 | It ignores your brand in new sessions | Start with *Read AGENTS.md first*, or ask it to set up its own rules file for your tool. |
 | It can't read your competitors' websites | Your tool may not browse the web, or a site may block it. Copy the text from each competitor's homepage and paste it into the chat. |
-| You set up your brand with an older version | Copy in the new `setup` folder from the latest download, then type the step 1 message. It asks only what's needed for the new brand files, and keeps your brand rules. |
+| You set up your brand with an older version | Copy in the new `setup` folder from the latest download, then type the step 1 message. It moves your brand files into the new layout without losing anything, asks only what's needed for the new parts, and keeps your brand rules. |
 
 ## Chat-only tools
 
@@ -95,8 +95,8 @@ ChatGPT, Gemini and other browser chat tools can't open a folder, but you can st
 |---|---|
 | `AGENTS.md` | The rules your AI reads at the start of every session |
 | `sources/` | Your raw material and interview answers. Used for setup only, never copied into new content |
-| `knowledge/` | Who you are, why you exist, who you compete with, who you're for (with personas), what you say and how you sound |
-| `brand/` | Colours, fonts, logos |
+| `knowledge/` | The facts: who you are, what you sell and for how much, your proof (testimonials, results, customers), who you're for (with personas) and who you compete with. Update these whenever something changes. |
+| `brand/` | The choices: why you exist, what you say, how you sound and how you look, with your logo and font files. Change these rarely, and with care. |
 | `templates/` | Formats you repeat (a weekly post, a monthly email) |
 | `work/` | Drafts in progress. Kept on your computer only, never shared on GitHub |
 | `outputs/` | Approved, finished pieces, which your AI also uses as examples |

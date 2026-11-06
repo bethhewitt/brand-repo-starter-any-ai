@@ -21,7 +21,7 @@ You need:
   | Claude Code | The Code tab in the Claude desktop app |
 
   Check that your plan includes it. Chat-only tools such as ChatGPT or Gemini in a browser can't work with folders: see [Chat-only tools](#chat-only-tools).
-- **Your brand material, if you have it:** brand guidelines, 3 to 5 of your best past posts or emails, decks, logo files, price lists or service sheets, and any testimonials or reviews you can use. Save Word files, Google Docs and slides as PDF first. If you have very little, that's fine: your AI will ask more questions instead.
+- **Your brand material, if you have it:** brand guidelines, any strategy documents (mission, vision, positioning, personas or competitor analysis), 3 to 5 of your best past posts or emails, decks, logo files, price lists or service sheets, and any testimonials or reviews you can use. Save Word files, Google Docs and slides as PDF first. If you have very little, that's fine: your AI will ask more questions instead.
 
 ## Install
 
@@ -38,8 +38,8 @@ You need:
 1. **Start the setup.** Type: *Read setup/brand-starter.md and follow it.*
     - *You should see:* a short message about what's going to happen, then a request for your brand name, your website, your main competitors and any material you have.
 2. **Add your material.** Your AI makes a `sources` folder inside your brand folder. Drop your files in there, then tell it you're done, with your brand name, website and competitors in the same message.
-    - *You should see:* a short summary of what it found and what looks thin. If your tool can browse the web, it also looks at your competitors' websites and recent changes in your market. If it can't, it asks you to paste in the text of each competitor's homepage.
-3. **Answer the questions.** It asks one question at a time, with numbered suggestions. Reply with a number or in your own words. For your mission, vision, positioning and tagline, it drafts a few options for you to choose between. Expect 20 to 30 questions.
+    - *You should see:* a short summary of what it found and what looks thin. If your tool can browse the web, it also looks at your competitors' websites and recent changes in your market, unless your material already covers them. If it can't, it asks you to paste in the text of each competitor's homepage.
+3. **Answer the questions.** It asks one question at a time, with numbered suggestions. Reply with a number or in your own words. If you already have a mission, vision, positioning or tagline, it tests it and asks whether to keep it, sharpen it or replace it. If you don't, it drafts a few options for you to choose between. Expect 20 to 30 questions, or fewer if your material already answers a lot: anything it covers is only confirmed, not asked again.
     - When it asks to create files or read your website or your competitors' websites, allow it. It only works inside your brand folder.
     - To stop, just close the session. Later, open the folder again and type the step 1 message: it carries on where you left off.
 4. **Let it build your brand files.** After the last question, it writes your brand files and tells you which gaps are left.
